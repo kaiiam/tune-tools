@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<title>Print chord fingerboard</title>
+<style>
+body {
+background-color: #77216F;
+color: white
+}
+p {
+font-size: large;
+}
+</style>
+</head>
+    <body>
+        <h1>{{content[0]}}</h1>
+        <a style="color:white" href="{{ url_for('chord_fingerboard') }}">Print a new chord</a>
+        <br>
+        <br>
+        {% for x in content[1:] %}
+            <pre><b>{{x}}</b></pre>
+        {% endfor %}
+    <a style="color:white" href="{{ url_for('home') }}">home</a>
+    </body>
+</html>

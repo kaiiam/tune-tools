@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<title>Suggest scales</title>
+<style>
+body {
+background-color: #038C9E;
+color: white
+}
+</style>
+</head>
+<form action="#", method="post">
+    <h2>Suggest scales for a chord</h2>
+    <input name="usr_txt" list="chords">Input chord (e.g., Am)</input>
+    <datalist id="chords">
+        <option value="C">
+        <option value="Cm(add9)">
+        <option value="Csus2">
+        <option value="Csus4">
+        <option value="C9sus4">
+        <option value="Csus11sus13">
+        <option value="C(no3)">
+        <option value="C6">
+        <option value="C6/9">
+        <option value="C6b5">
+        <option value="C▵6">
+        <option value="C▵7">
+        <option value="C▵7#5">
+        <option value="C▵7#9#11">
+        <option value="C▵7#5#11">
+        <option value="C▵9(no3)">
+        <option value="C▵7#11">
+        <option value="C▵9">
+        <option value="C▵11(no5)">
+        <option value="Cm">
+        <option value="Cm(add9)">
+        <option value="Cm6">
+        <option value="Cm6/9">
+        <option value="Cm7">
+        <option value="Cm7b13">
+        <option value="Cm7#5">
+        <option value="Cm7#11">
+        <option value="Cm7b9">
+        <option value="Cm9">
+        <option value="Cm9/13">
+        <option value="Cmb9b13">
+        <option value="Cm11">
+        <option value="Cm9/11">
+        <option value="Cm9b13">
+        <option value="Cm13">
+        <option value="Cm7b5">
+        <option value="Cm(▵7)">
+        <option value="C7">
+        <option value="C9">
+        <option value="C7b9">
+        <option value="C7#9">
+        <option value="C13">
+        <option value="C7#5">
+        <option value="C7#5b9">
+        <option value="C7sus4">
+        <option value="C7susb9">
+        <option value="C7#11">
+        <option value="C7b13">
+        <option value="C7b9b13">
+        <option value="C9/13">
+        <option value="Db/C">
+        <option value="D/C">
+        <option value="Gb/C">
+        <option value="A/C">
+        <option value="Cdim7">
+    </datalist>
+    <br>
+    <br>
+<!--    prefer #s in output (default is b) <input type="checkbox" value="#" name="mycheckbox">-->
+    <label for="keybox">Key preference:</label>
+            <select name="keybox" id="keybox">
+                <option value="b">b</option>
+                <option value="#">#</option>
+            </select>
+    <p> <input type="submit" name="submit" /> </p>
+</form>
+<a style="color:white" href="{{ url_for('home') }}">home</a>
+</body>
+</html>

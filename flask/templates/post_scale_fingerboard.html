@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<title>Print scale fingerboard</title>
+<style>
+body {
+background-color: #5e2750;
+color: white
+}
+</style>
+</head>
+    <body>
+        <form action="#", method="post">
+            <h2>Print scale to instrument fingerboard</h2>
+            <input name="usr_txt", list="scales">Input scale (e.g., Bb major)</input>
+            <datalist id="scales">
+                <option value="C major">
+                <option value="C minor pentatonic">
+                <option value="C harmonic minor">
+                <option value="C melodic minor">
+                <option value="C whole half diminished">
+                <option value="C whole tone scale">
+                <option value="C enigmatic scale">
+            </datalist>
+            <br>
+            <br>
+            <label for="keybox">Key preference:</label>
+            <select name="keybox" id="keybox">
+                <option value="b">b</option>
+                <option value="#">#</option>
+            </select>
+            <br>
+            <br>
+            <label for="instruments">Choose an instrument:</label>
+            <select name="instruments" id="instruments">
+                <option value="guitar">guitar</option>
+                <option value="bass">bass</option>
+                <option value="ukulele">ukulele</option>
+                <option value="violin">violin</option>
+                <option value="mandolin">mandolin</option>
+            </select>
+            <p> <input type="submit" name="submit" /> </p>
+        </form>
+    <a style="color:white" href="{{ url_for('home') }}">home</a>
+    </body>
+</html>
+

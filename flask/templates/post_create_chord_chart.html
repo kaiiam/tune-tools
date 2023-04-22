@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<title>Generate chord chart</title>
+<style>
+body {
+background-color: #BB85AB;
+color: black
+}
+<!--p {font-size: large;}-->
+<!--#BB85AB really pretty light purple-->
+<!--#B579A6 other nice color-->
+</style>
+</head>
+<body>
+<!--<body style="background-color: #00AFBB">-->
+<form action="#", method="post">
+    <h2>Generate chord chart</h2>
+    <p>Input notes one line per measure. <br>If there are too many notes in any line, <br>the script will use the leftmost notes.</p>
+    <textarea name="usr_txt" rows="4" cols="50">A
+A C</textarea>
+    <br>
+<!--    prefer #s in output (default is b) <input type="checkbox" value="#" name="mycheckbox">-->
+
+    <label for="keybox">Key preference:</label>
+            <select name="keybox" id="keybox">
+                <option value="b">b</option>
+                <option value="#">#</option>
+            </select>
+
+    <p> <input type="submit" name="submit" /> </p>
+</form>
+<a href="{{ url_for('home') }}">home</a>
+</body>
+</html>

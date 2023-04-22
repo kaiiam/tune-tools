@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<title>Home page</title>
+<style>
+body {
+background-color: #447a54;
+color: white;
+text-align: center;
+}
+a {
+font-weight: bold;
+font-size: x-large;
+}
+p {
+font-size: large;
+}
+</style>
+</head>
+    <body>
+        <h1>Tune Tools</h1>
+        <p>Welcome to tune-tools, a site to help you create and practice music.<br>Please choose from the following:</p>
+        <a style="color:#BB85AB" href="{{ url_for('create_chord_chart') }}">Generate chords from input notes</a>
+        <br>
+        <br>
+        <a style="color:#77216F" href="{{ url_for('chord_fingerboard') }}">Print a chord to an instrument fingerboard</a>
+        <br>
+        <br>
+        <a style="color:#05C3DD" href="{{ url_for('suggest_scales') }}">Suggest scales for a chord</a>
+        <br>
+        <br>
+        <a style="color:#5E2750" href="{{ url_for('scale_fingerboard') }}">Print a scale to an instrument fingerboard</a>
+    </body>
+</html>

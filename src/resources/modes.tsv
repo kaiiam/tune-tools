@@ -1,0 +1,22 @@
+name	one	three	five	seven	nine	eleven	thirteen	label	
+1-Major	1	3	5	7	9	11	13	▵7	got
+2-Major	1	b3	5	b7	9	11	13	m13	got
+3-Major	1	b3	5	b7	b9	11	b13	mb9b13	got
+4-Major	1	3	5	7	9	#11	13	▵7#11	got
+5-Major	1	3	5	b7	9	11	13	7	got
+6-Major	1	b3	5	b7	9	11	b13	m7	got
+7-Major	1	b3	b5	b7	b9	11	b13	m7b5	got
+1-Harmonic-Minor	1	b3	5	7	9	11	b13	–(▵7)b13	too spicy
+2-Harmonic-Minor	1	b3	b5	b7	b9	11	13	m7b5b9	got
+3-Harmonic-Minor	1	3	#5	7	9	11	13	▵7#5	got
+4-Harmonic-Minor	1	b3	5	b7	9	#11	13	m7#11	got
+5-Harmonic-Minor	1	3	5	b7	b9	11	b13	7b9b13	got
+6-Harmonic-Minor	1	3	5	7	#9	#11	13	▵7#9#11	got
+7-Harmonic-Minor	1	b3	b5	bb7	b9	b11	b13	dim	got
+1-Melodic-Minor	1	b3	5	7	9	11	13	–(▵7)	got
+2-Melodic-Minor	1	b3	5	b7	b9	11	13	m7b9	got
+3-Melodic-Minor	1	3	#5	7	9	#11	13	▵7#5#11	got
+4-Melodic-Minor	1	3	5	b7	9	#11	13	7#11	got
+5-Melodic-Minor	1	3	5	b7	9	11	b13	7b13	got
+6-Melodic-Minor	1	b3	b5	b7	9	11	b13	m7b5b13	got
+7-Melodic-Minor	1	b3	b5	b7	b9	b11	b13	m7b5b11b13	too spicy

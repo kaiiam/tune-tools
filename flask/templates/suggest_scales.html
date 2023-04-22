@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<title>Suggested scales</title>
+<style>
+body {
+background-color: #038C9E;
+color: white;
+text-align: center;
+}
+b {
+font-size: large;
+}
+</style>
+</head>
+    <body>
+        <h3>Suggested scales for</h3>
+        <h1>{{content[0]}}</h1>
+        <a style="color:black" href="{{ url_for('suggest_scales') }}">Try a new chord</a>
+        <br>
+        <br>
+        {% for x in content[1:] %}
+            {% if x == 'Scale(s) with all chord notes' %}
+                <b>{{x}}</b>
+            {% elif x == 'Other scale(s)' %}
+                <br>
+                <b>{{x}}</b>
+            {% else %}
+                <p>{{x}}</p>
+                {% endif %}
+        {% endfor %}
+    <a style="color:black" href="{{ url_for('home') }}">home</a>
+    </body>
+</html>

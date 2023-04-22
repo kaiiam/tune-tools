@@ -1,0 +1,56 @@
+name	one	three	five	seven	nine	eleven	thirteen	comment	weight	alt_label
+ 	1	3	5	NA	NA	NA	NA	need	10	major triad
+m(add9)	1	3	5	NA	9	NA	NA	like	1	major triad add9
+sus2	1	NA	5	NA	9	NA	NA	like	1	sus2
+sus4	1	NA	5	NA	NA	11	NA	like	1	sus4
+9sus4	1	NA	5	b7	9	11	NA	favorite 	5	9sus4 (Bb/C)
+sus11sus13	1	NA	NA	NA	NA	11	13	like	1	sus11sus13 (F/C)
+(no3)	1	NA	5	NA	NA	NA	NA	need	10	major triad (no3)
+6	1	3	5	NA	NA	NA	13	favorite 	5	major triad add6
+6/9	1	3	5	NA	9	NA	13	favorite 	5	6/9 
+6b5	1	3	b5	NA	NA	NA	13	spicy	1	6b5
+▵6	1	3	5	7	NA	NA	13	like	1	▵6
+▵7	1	3	5	7	NA	NA	NA	need	10	▵7
+▵7#5	1	3	#5	7	NA	NA	NA	very spicy (greek gods)	3	▵7#5 (E/C)
+▵7#9#11	1	3	5	7	#9	#11	NA	Too spicy	1	▵7#9#11 (B/C)
+▵7#5#11	1	3	#5	7	NA	#11	NA	spicy	1	▵7#5#11
+▵9(no3)	1	NA	5	7	9	NA	NA	like	1	▵9 (G/C)
+▵7#11	1	3	5	7	NA	#11	NA	like	1	▵7#11
+▵9	1	3	5	7	9	NA	NA	like	1	▵9
+▵11(no5)	1	3	NA	7	NA	11	NA	favorite stacked fourth	3	▵11(no5)
+m	1	b3	5	NA	NA	NA	NA	need	10	minor triad
+m(add9)	1	b3	5	NA	9	NA	NA	very spicy	1	m(add9)
+m6	1	b3	5	NA	NA	NA	13	favorite 	5	m6
+m6/9	1	b3	5	NA	9	NA	13	like	2	m6/9
+m7	1	b3	5	b7	NA	NA	NA	need	10	m7
+m7b13	1	b3	5	b7	NA	NA	b13	favorite brazilian chord	5	m7b13
+m7#5	1	b3	#5	b7	NA	NA	NA	favorite deacon blues	5	m7#5 (Ab/C)
+m7#11	1	b3	5	b7	NA	#11	NA	bit too spicy	1	m7#11
+m7b9	1	b3	5	b7	b9	NA	NA	Too spicy	1	m7b9
+m9	1	b3	5	b7	9	NA	NA	favorite 	5	m9
+m9/13	1	b3	5	b7	9	NA	13	favorite stacked fourth	3	m9/13
+mb9b13	1	b3	5	b7	b9	NA	b13	favorite stacked fourth	3	mb9b13
+m11	1	b3	5	b7	NA	11	NA	favorite 	5	m11
+m9/11	1	b3	5	b7	9	11	NA	favorite stacked fourth	3	m9/11
+m9b13	1	b3	5	b7	9	NA	b13	favorite stacked fourth	3	m9b13
+m13	1	b3	5	b7	NA	NA	13	bit too spicy	1	m13
+m7b5	1	b3	b5	b7	NA	NA	NA	need	2	m7b5
+m(▵7)	1	b3	5	7	NA	NA	NA	spicy	1	m(▵7)
+7	1	3	5	b7	NA	NA	NA	need	10	7
+9	1	3	5	b7	9	NA	NA	favorite 	5	9
+7b9	1	3	5	b7	b9	NA	NA	like	2	b9
+7#9	1	3	5	b7	#9	NA	NA	like	3	#9
+13	1	3	5	b7	NA	NA	13	like	3	13
+7#5	1	3	#5	b7	NA	NA	NA	like	1	7#5
+7#5b9	1	3	#5	b7	b9	NA	NA	spicy	1	7#5b9
+7sus4	1	NA	5	b7	NA	11	NA	favorite	5	7sus4
+7susb9	1	NA	5	b7	b9	NA	NA	spicy	1	7susb9
+7#11	1	3	5	b7	NA	#11	NA	like but harder to use	2	7#11
+7b13	1	3	5	b7	NA	NA	b13	Too spicy (with 5)	1	7b13
+7b9b13	1	3	5	b7	b9	NA	b13	Too spicy	1	7b9b13
+9/13	1	3	5	b7	9	NA	13	favorite (stacked 4th)	3	7/9/13
+/root+1	1	NA	#5	NA	b9	11	NA	very spicy	1	root/root+1 (Db/C)
+/root+2	1	NA	NA	NA	9	#11	13	favorite 	5	root/root+2 (D/C)
+/root+6	1	NA	NA	b7	b9	#11	NA	very spicy Roman death sentence	1	root/tritone (Gb/C)
+/root+9	1	3	NA	NA	b9	NA	13	very spicy	3	root/root+9 (A/C)
+dim7	1	b3	b5	bb7	NA	NA	NA	spicy	1	dim7

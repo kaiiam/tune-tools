@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<title>Generated chord chart</title>
+<style>
+body {
+background-color: #BB85AB;
+color: black
+}
+p {
+font-size: large;
+}
+</style>
+</head>
+    <body>
+        <h1>{{content[0]}}</h1>
+        <a href="{{ url_for('create_chord_chart') }}">Try again!</a>
+        <br>
+        <br>
+        <b>{{content[3]}}</b>
+        <br>
+        {% for x in content[4:] %}
+            <p>{{x}}</p>
+        {% endfor %}
+    <a href="{{ url_for('home') }}">home</a>
+    </body>
+</html>

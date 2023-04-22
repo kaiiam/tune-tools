@@ -1,0 +1,4 @@
+C major
+Bb minor pentatonic
+F harmonic minor
+Db melodic minor
