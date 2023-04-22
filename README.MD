@@ -37,7 +37,7 @@ usage: tune-tools.py [-h] [-i str] [-k str] [-w] [-n] [-ins str] [-m str]
 
 optional arguments:
   -h, --help            show this help message and exit
-  -i str, --input str   Input txt file or string where each line is a space delimited list of notes to generate chords with, or chord name and 						  symbol to get the notes of (default: )
+  -i str, --input str   Input txt file or string where each line is a space delimited list of notes to generate chords with, or chord name and symbol to get the notes of (default: )
   -k str, --keys str    Choice of sharp (#) or flat (b) to write note and chord labels with (default: b)
   -w, --weights         A boolean flag for using chord weights to less randomly select chords (default: False)
   -n, --notes_gen_chord
