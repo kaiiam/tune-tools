@@ -13,6 +13,15 @@ A site to help you create and practice music.
 `Print a scale to an instrument fingerboard`
 
 
+# Dependencies
+
+Flask is required to run the tune-tools GUI application install with the following if not already on your system.
+
+```
+pip install flask
+```
+
+
 # flask
 
 Run tune-tools as a python flask application:
