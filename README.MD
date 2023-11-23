@@ -74,3 +74,8 @@ python3 tune-tools.py -i input/chords/1.txt -w -m 'suggest_scales' -k b
 python3 tune-tools.py -i input/chords/2.txt -m 'print_chord_fingerboard' -ins 'guitar' -k b
 python3 tune-tools.py -i input/scales/1.txt -m 'print_scale_fingerboard' -ins 'guitar' -k b
 ```
+
+
+# Similar Resources
+
+[Excel spreadsheet giving the diatonic chords for a mode / makam](https://docs.google.com/spreadsheets/d/1mPL_SlPrmCADD__exaGY3V1CzavXGyhJnh27C83vTfo/edit?usp=sharing)
